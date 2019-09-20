@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="30dp"
+            android:text="3 Phases Of Software Delivery"
+            android:textColor="@android:color/background_light"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="96dp"
+                android:layout_marginTop="38dp"
+                android:layout_height="96dp"
+                app:srcCompat="@drawable/list1" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="254dp"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/white" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Planning"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="224dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Survey customer requirements. Design proposed system ." />
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="96dp"
+                android:layout_marginTop="38dp"
+                android:layout_height="96dp"
+                app:srcCompat="@drawable/list2" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="254dp"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/white" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Developing"
+
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="224dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Survey customer requirements. Design proposed system ." />
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/cardview_light_background"
+            android:text="For more details visit our website: www.seinfo.com" />
+    </LinearLayout>
+</ScrollView>

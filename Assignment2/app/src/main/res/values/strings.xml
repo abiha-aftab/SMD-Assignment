@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GUI DEMO(16L-4329)</string>
+    <string name="editText">First Name</string>
+    <string name="editText4">Last Name</string>
+    <string name="editText3">Email ID</string>
+    <string name="editText2">Password</string>
+    <string name="editText5">Retype Password</string>
+    <string name="radioButton">Male</string>
+    <string name="radioButton2">Female</string>
+    <string name="button">Signup</string>
+    <string name="button2">Exit</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="tab_text_4">Tab 4</string>
+    <string name="imageView5">image1</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

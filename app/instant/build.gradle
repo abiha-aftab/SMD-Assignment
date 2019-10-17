@@ -1,0 +1,9 @@
+apply plugin: 'com.android.instantapp'
+
+dependencies {
+
+    implementation project(':base')
+    androidTestImplementation 'android.test.ext:junit:1.1.0'
+    testImplementation 'androidx.test.ext:junit:1.1.0'
+}
+
